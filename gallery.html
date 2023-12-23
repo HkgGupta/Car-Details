@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gallery | Car Details</title>
+    <link href="lightbox/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <style type="text/css">
+        #gallery .gallery-image {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            /* border: 2px solid #000071; */
+            border-radius: 5px;
+            margin-top: 10px 0;
+        }
+
+        .gallery-image img {
+            width: 100%;
+            height: 211px;
+            margin-bottom: 20px;
+            padding: 5px;
+            /* border: 1px solid #004b84; */
+            /*border-radius: 5px;*/
+            /* border-radius: 50px 0; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NavBar Starts-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <b><a class="navbar-brand" href="index.html">Prime Rides</a></b>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="cars.html">Cars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Cars" aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- NavBar Ends-->
+
+    <!-- <section>
+        <h1 class="title-text text-uppercase text-center mb-5 mt-5 ">Gallery</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="gallery-image">
+                        <a href="images/c1.jpg" data-lightbox="image-1" data-title="" style="color:black;">
+                            <center style="font-size: 22px;color: #004b84;font-weight: 600;">C1</center>
+                            <img src="images/c1.jpg" alt="gallery1" width="100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-image">
+                        <a href="images/c2.jpeg" data-lightbox="image-1" data-title="" style="color:black;">
+                            <center style="font-size: 22px;color: #004b84;font-weight: 600;">C2</center>
+                            <img src="images/c2.jpeg" alt="gallery1" width="100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-image">
+                        <a href="images/c3.jpg" data-lightbox="image-1" data-title="" style="color:black;">
+                            <center style="font-size: 22px;color: #004b84;font-weight: 600;">C3</center>
+                            <img src="images/c3.jpg" alt="gallery1" width="100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="gallery-image">
+                        <a href="images/c4.jpg" data-lightbox="image-1" data-title="" style="color:black;">
+                            <center style="font-size: 22px;color: #004b84;font-weight: 600;">C4</center>
+                            <img src="images/c4.jpg" alt="gallery1" width="100%">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section> -->
+
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center bg-info font-weight-bold p-2 m-3">GALLERY</h1>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://cdn.wallpapersafari.com/65/92/i42w6j.jpg" alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://images8.alphacoders.com/880/thumb-1920-880114.jpg" alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://i.artfile.me/wallpaper/26-09-2014/1920x1080/avtomobili-vencer-869983.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://www.carpixel.net/w/4ad806c919e3da8113da67083259f33b/aston-martin-dbs-carbon-edition-wallpaper-hd-39498.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://stat.overdrive.in/wp-content/odgallery/2017/04/35173_Ferrari488Spider-006.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://www.carpixel.net/w/724b8ad819ce121aa815f507b5798057/mclaren-gt-wallpaper-hd-90983.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://i.artfile.me/wallpaper/25-01-2014/1920x1080/avtomobili-lamborghini-aventador-786814.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://wallpapers.com/images/hd/top-10-car-wallpaper-0mxzjlme315rq7z3.jpg" alt="gallery1"
+                        width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://www.carpixel.net/w/e23151926395784635a2ba69c838f1d7/ferrari-california-wallpaper-hd-71283.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://stat.overdrive.in/wp-content/odgallery/2017/04/35173_Ferrari488Spider-006.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://www.carpixel.net/w/4ad806c919e3da8113da67083259f33b/aston-martin-dbs-carbon-edition-wallpaper-hd-39498.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="https://www.carpixel.net/w/724b8ad819ce121aa815f507b5798057/mclaren-gt-wallpaper-hd-90983.jpg"
+                        alt="gallery1" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Starts -->
+
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row ">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                    <p class="mb10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione maxime
+                        nulla eum! Quia dolor ea praesentium molestias quisquam distinctio!</p>
+                    <p><i class="fa fa-location-arrow"></i> Ranchi </p>
+                    <p><i class="fa fa-phone"></i> +91 9999878398 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+                </div>
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <ul class="footer_ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cars.html">Cars List</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+
+                <div class=" col-12 col-sm-auto col-md-auto col-lg-auto    col">
+
+                </div>
+            </div>
+        </div>
+
+        <section class="m- text-center">
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#"
+                role="button"><i class="fa fa-facebook-f"></i></a>
+
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#"
+                role="button"><i class="fa fa-twitter"></i></a>
+
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#"
+                role="button"><i class="fa fa-google"></i></a>
+
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#"
+                role="button"><i class="fa fa-instagram"></i></a>
+
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#"
+                role="button"><i class="fa fa-linkedin"></i></a>
+
+            <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#"
+                role="button"><i class="fa fa-github"></i></a>
+        </section>
+        <p class="text-center mt-2">Copyright &copy; 2023 | <a href="#">Prime Riders</a></p>
+
+
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+</html>
